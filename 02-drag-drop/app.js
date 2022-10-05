@@ -1,3 +1,4 @@
+// видео урок https://youtu.be/Jg4o5AC2vUQ
 'use strict';
 
 const item = document.querySelector('.item');

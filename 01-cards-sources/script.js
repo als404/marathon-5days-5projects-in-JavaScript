@@ -1,3 +1,5 @@
+// видео урок 1: https://youtu.be/vUVFhGfqtWs
+// бонус урок 1: https://youtu.be/u-ntX9GfGzY
 'use strict';
 
 function slidesPlugin(activeSlide = getRandomIntInclusive(0, document.querySelectorAll('.slide').length - 1)) {

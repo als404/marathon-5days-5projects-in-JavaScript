@@ -1,17 +1,13 @@
 'use strict';
-
 const board = document.querySelector('#board'),
-      colors = ['#e74c3c', '#8e44ad', '#3498db', '#e67e22', '#2ecc71'],
-      SQUARES_NUMBER = 500;
+      colors = ['#ef3e34', '#fac87c', '#048fa1', '#ac5276', '#ececd4', '#fcd653', '#148cd4', '#6a8913', '#9bb833'],
+      SQUARES_NUMBER = 600;
 
 for (let i = 0; i < SQUARES_NUMBER; i++) {
     const square = document.createElement('div');
     square.classList.add('square');
-
     square.addEventListener('mouseover', () => setColor(square));
-
     square.addEventListener('mouseleave', () => removeColor(square));
-
     board.append(square);
 }
 
